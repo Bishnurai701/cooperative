@@ -1,0 +1,431 @@
+﻿
+body {    
+    background-color:#EEEEEE;
+}
+
+#wrapper {
+  padding-left: 0;
+}
+
+#page-wrapper {
+  width: 100%;
+  padding: 0px;
+  min-height:530px !important;
+}
+#page-footer {
+    background-color:#E0C5C5;
+    padding:10px 15px;
+    color:#999999;
+}
+/* Nav Messages */
+
+.messages-dropdown .dropdown-menu .message-preview .avatar,
+.messages-dropdown .dropdown-menu .message-preview .name,
+.messages-dropdown .dropdown-menu .message-preview .message,
+.messages-dropdown .dropdown-menu .message-preview .time {
+  display: block;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .avatar {
+  float: left;
+  margin-right: 15px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .name {
+  font-weight: bold;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .message {
+  font-size: 12px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .time {
+  font-size: 12px;
+}
+
+
+/* Nav Announcements */
+
+.announcement-heading {
+  font-size: 50px;
+  margin: 0;
+}
+
+.announcement-text {
+  margin: 0;
+}
+
+/* Table Headers */
+
+table.tablesorter thead {
+  cursor: pointer;
+}
+
+table.tablesorter thead tr th:hover {
+  background-color: #f5f5f5;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+  display: block;
+  height: 400px;
+}
+
+.flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width:767px) {
+    body {
+        margin-top: 45px;
+    }
+  
+  /* Side Nav */
+
+    .side-nav {
+        background-color: #E0C5C5;
+        border: medium none;
+        border-radius: 0;
+        height: 100%;
+        left: 0;
+        list-style: none outside none;
+        overflow-y: auto;
+        position: fixed;
+        top: 45px;
+        width: auto;
+        padding:5px 0px;        
+    }
+
+  /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+
+  .side-nav>li.dropdown>ul.dropdown-menu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+	color: #999999;
+	padding: 15px 15px 15px 25px;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+	color: #fff;
+	background-color: #080808;
+  }
+  
+  .side-nav > li > a {  
+        color: #999999;        
+        line-height:30px;      
+        padding:7px 8px;
+    }
+  .side-nav > li > a > span{
+        display:none;
+    }
+ 
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: #080808;
+  }
+
+  /* Nav Messages */
+
+  .messages-dropdown .dropdown-menu {
+	min-width: 300px;
+  }
+
+  .messages-dropdown .dropdown-menu li a {
+	white-space: normal;
+  }
+  /*Main Wrapper*/
+    #main-wrapper {
+        margin-left:30px;     
+        padding:10px;
+    }
+}
+/* Edit Below to Customize Widths > 768px */
+@media (min-width:768px) {
+    body {
+        margin-top: 79px;
+        padding:0px 0px;
+    }
+
+  /* Wrappers */
+  #wrapper {
+	padding-left: 0px;
+  }
+
+  #page-wrapper {
+	padding: 0px 0px;
+  }
+
+  /* Side Nav */
+
+    .side-nav {
+        background-color: #E0C5C5;
+        border: medium none;
+        border-radius: 0;
+        height: 100%;
+        left: 0;
+        list-style: none outside none;
+        overflow-y: auto;
+        position: fixed;
+        top: 75px;
+        width: 200px;
+        padding-left:0px;
+        padding-top:10px;
+        font-size:14px;
+    }
+
+  /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+
+  .side-nav>li.dropdown>ul.dropdown-menu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+	color: #999999;	
+    padding-left:25px;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+	color: #fff;
+	background-color:transparent;
+  }
+  
+  .side-nav > li > a {
+        color: #080808;        
+        line-height:30px;
+        display:block;
+        padding:5px 20px;          
+    }
+  .side-nav > li > a:hover,
+  .side-nav > li > a:active,
+  .side-nav > li > a:focus
+   {
+         text-decoration:none;
+         color: #fff;
+	background-color: #080808;
+    }
+   
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: #080808;
+  }
+  
+  /* Nav Messages */
+
+  .messages-dropdown .dropdown-menu {
+	min-width: 300px;
+  }
+
+  .messages-dropdown .dropdown-menu li a {
+	white-space: normal;
+  }
+
+  /*Main Wrapper*/
+    #main-wrapper {
+        margin-left:200px;
+        padding:10px;
+    }
+  
+}
+
+/* Nav Menu*/
+    .nav-menu {
+        
+    }    
+    .nav-menu ul li a {        
+        text-transform:uppercase;
+        padding:8px;
+    }
+    .nav-menu ul li:first-child a {
+        margin-left:0px;
+    }
+
+   
+    
+    .navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color:transparent;
+  border-bottom:2px solid #de4806;
+}
+
+ .side-nav > .active > a,
+.side-nav > .active > a:hover,
+.side-nav > .active > a:focus {
+  color: #ffffff;
+  background-color:#000;  
+}
+.headrow {        
+    border-top:1px solid #999999;
+    border-bottom:1px solid #999999;
+    min-height:30px;
+    padding:5px;
+    margin-bottom:10px;
+}
+.headrow a {    
+    padding:10px;
+    font-size:16px;
+}
+.entry-form {
+    background-color: #FFFFFF;
+    border-color: rgba(0, 0, 0, 0) #DDDDDD #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: -15px;
+    padding: 5px 10px 5px;
+}
+
+/* nav-custom */
+.nav-custom {    
+    border-top: 1px solid #DDDDDD;   
+}
+.nav-custom > li > a {
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 0px 0px 0 0;
+  line-height: 1.42857;
+  margin-right: 2px;
+}
+.nav-custom > li.active > a, .nav-custom > li.active > a:hover, .nav-custom > li.active > a:focus {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color:transparent;  
+  border-color: transparent;
+  border-bottom-color:#de4806;
+  border-image: none;
+  border-style: solid;
+  border-width: 2px;
+  color: #555555;
+  cursor: default;
+}
+.fa-edit {
+    color:#175e0f;
+}
+.fa-trash-o {
+    color:#a50f0f;
+}
+/* Custom Table */ 
+/***********Table CSS *************/
+.custom-table {
+  max-width: 100%;  
+  margin-top:10px; 
+  margin-bottom: 20px;
+}
+
+.custom-table thead > tr > th, 
+.custom-table tbody > tr > th, 
+.custom-table tfoot > tr > th, 
+.custom-table thead > tr > td, 
+.custom-table tbody > tr > td, 
+.custom-table tfoot > tr > td {
+  border: 1px solid #DDDDDD;  
+}
+
+.custom-table thead > tr > th,
+.custom-table tbody > tr > th 
+{
+    background:#B0E6F7;
+    color:#312c2c;
+    border: 0px solid;
+}
+
+.custom-table thead > tr > th:last-child,
+.custom-table tbody > tr > th:last-child 
+{
+     width:100px;     
+}    
+    .custom-table tbody > tr > td:last-child {
+        font-size:14px;
+        padding:3px;
+      
+    }
+        .custom-table tbody > tr > td:last-child a {
+            text-decoration:none;
+        }
+        .custom-table tbody > tr > td:last-child a:hover,
+        .custom-table tbody > tr > td:last-child a:focus,
+        .custom-table tbody > tr > td:last-child a:active {
+            text-decoration:none;
+        }
+
+      input[type="radio"], input[type="checkbox"] {
+  line-height: normal;
+  margin: 0px 0 0;
+}
+/* Model Pop Up */
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+  margin-right:0px; 
+}
+.modal {  
+  overflow-y: hidden;  
+  position:fixed;
+}
+
+.modal-content {
+  background-clip: padding-box;
+  background-color: #f5f5f5;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  box-shadow: 0 3px 9px #101010;
+  outline: medium none;
+  position: relative;
+}
+.modal-footer {  
+  margin-top: 0;
+  padding: 10px;  
+}
+/* Move down content because we have a fixed navbar that is 50px tall 
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+ Wrapping element 
+ Set some basic padding to keep content from hitting the edges 
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ Set widths on the form inputs since otherwise they're 100% wide 
+input[type="text"],
+input[type="password"] {
+    max-width: 280px;
+}
+
+ Responsive: Portrait tablets and up 
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}*/
+@media screen and (min-width: 768px) {
+        
+}

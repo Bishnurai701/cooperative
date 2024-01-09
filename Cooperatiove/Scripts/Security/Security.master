@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Security.master.cs" Inherits="Cooperative.Security.Security" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Header" runat="server">   
+     <link href="../font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <link href="../font-awesome-4.0.3/css/font-awesome.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="Header2" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+        <ul class="side-nav">
+        <li id="liDash"><a href="DashBoard.aspx"><i class="fa fa-dashboard"></i><span>&nbsp;Dashboard </span></a></li>
+        <li id="liBranch"><a href="Branch.aspx"><i class="fa fa-table"></i><span>&nbsp;Branch </span></a></li>       
+        
+    </ul>
+    <div id="main-wrapper">
+        <asp:ContentPlaceHolder runat="server" ID="MainContent"></asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
